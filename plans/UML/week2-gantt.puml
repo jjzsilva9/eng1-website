@@ -29,9 +29,9 @@ then [Write up requirements] on {Dan, Charlotte, Rosie} requires 4 days
 [Counters(GUI)] starts at [Interaction]'s end
 --Risk Management--
 [Risk Management] requires 13 days
-[Risk Management] starts at [Review Brief and write questions]'s end
+[Risk Management] starts on 2024-02-21
 [Risk Identification] on {Ethan, Ben} requires 1 day
-[Risk Identification] starts at [Risk Management]'s start
+[Risk Identification] starts on 2024-02-21
 [Risk Analysis] on {Everyone} starts at [Risk Identification]'s end
 [Risk Analysis] requires 5 days
 [Risk Planning] starts at [Risk Analysis]'s end
