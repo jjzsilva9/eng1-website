@@ -1,0 +1,25 @@
+@startwbs
+* Heslington Hustle
+** Requirements Elicitation
+*** Review Brief
+*** Conduct interview
+*** Write up requirements
+** Risk Management
+*** Risk Identification
+*** Risk Analysis
+*** Risk Planning
+*** Risk Monitoring
+** Architecture
+*** Responsibility Driven Design
+*** Architectural Design
+** Implementation
+*** Movement
+*** Map
+*** Animation
+*** Interaction
+*** Counters (GUI)
+** Testing
+*** Internal Q&A
+*** Automated Testing
+*** Customer Feedback
+@endwbs

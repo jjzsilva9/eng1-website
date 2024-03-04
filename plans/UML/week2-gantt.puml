@@ -1,0 +1,59 @@
+@startgantt
+Project starts 2024-02-19 
+
+[Requirements Elicitation] starts 2024-02-19 
+[Requirements Elicitation] requires 5 days
+[Review Brief and write questions] on {Everyone} requires 2 days 
+then [Conduct interview] on {Dan, Charlotte, Ethan, Ben} requires 1 day
+then [Write up requirements] on {Dan, Charlotte, Rosie} requires 4 days
+[Requirements document] happens at [Write up requirements]'s end
+--Architecture--
+[Architecture] starts at [Requirements document]'s end
+[Architecture] requires 11 days
+[Responsibility Driven Design] on {Everyone} requires 8 days
+[Responsibility Driven Design] starts at [Requirements document]'s end
+[Architectural Design] on {Everyone} requires 3 days
+[Architectural Design] starts at [Responsibility Driven Design]'s end
+--Implementation--
+[Implementation] starts at [Architecture]'s end
+[Implementation] requires 11 days
+[Movement] requires 3 days
+[Animation] requires 3 days
+[Map] requires 7 days
+[Interaction] requires 2 days
+[Counters(GUI)] requires 2 days
+[Movement] starts at [Architecture]'s end
+[Map] starts at [Architecture]'s end
+[Animation] starts at [Movement]'s end
+[Interaction] starts at [Map]'s end
+[Counters(GUI)] starts at [Interaction]'s end
+--Testing--
+[Testing] starts at [Implementation]'s start
+[Testing] requires 13 days
+[Internal Q&A] starts at [Testing]'s start
+[Internal Q&A] requires 13 days
+[Automated Testing] starts at [Testing]'s start
+[Automated Testing] requires 13 days
+[Customer Feedback] requires 2 days
+[Customer Feedback] starts on 2024-03-13
+--Risk Management--
+[Risk Management] requires 13 days
+[Risk Management] starts at [Review Brief and write questions]'s end
+[Risk Identification] on {Ethan, Ben} requires 1 day
+[Risk Identification] starts at [Risk Management]'s start
+[Risk Analysis] on {Everyone} starts at [Risk Identification]'s end
+[Risk Analysis] requires 5 days
+[Risk Planning] starts at [Risk Analysis]'s end
+[Risk Planning] requires 7 days
+[Risk Management Plan] happens at [Risk Planning]'s end
+[Risk Monitoring] starts at [Risk Planning]'s end
+[Risk Monitoring] ends on 2024-03-20
+
+--Planning--
+[Weekly project plan 1] on {Joe} starts on 2024-02-22
+[Weekly project plan 2] on {Joe} starts on 2024-02-29
+[Weekly project plan 3] starts on 2024-03-07
+[Weekly project plan 4] starts on 2024-03-14
+
+[Submission] starts on 2024-03-20
+@endgantt
