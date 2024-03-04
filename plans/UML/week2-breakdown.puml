@@ -1,5 +1,6 @@
 @startwbs
 * Heslington Hustle
+** Website
 ** Requirements Elicitation
 *** Review Brief
 *** Conduct interview
@@ -12,14 +13,14 @@
 ** Architecture
 *** Responsibility Driven Design
 *** Architectural Design
+** Method selection and Planning
+*** SWE Methods
+*** Team Organisation
+*** Planning
 ** Implementation
 *** Movement
 *** Map
 *** Animation
 *** Interaction
 *** Counters (GUI)
-** Testing
-*** Internal Q&A
-*** Automated Testing
-*** Customer Feedback
 @endwbs

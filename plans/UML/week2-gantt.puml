@@ -16,7 +16,7 @@ then [Write up requirements] on {Dan, Charlotte, Rosie} requires 4 days
 [Architectural Design] starts at [Responsibility Driven Design]'s end
 --Implementation--
 [Implementation] starts at [Architecture]'s end
-[Implementation] requires 11 days
+[Implementation] requires 12 days
 [Movement] requires 3 days
 [Animation] requires 3 days
 [Map] requires 7 days
@@ -27,15 +27,6 @@ then [Write up requirements] on {Dan, Charlotte, Rosie} requires 4 days
 [Animation] starts at [Movement]'s end
 [Interaction] starts at [Map]'s end
 [Counters(GUI)] starts at [Interaction]'s end
---Testing--
-[Testing] starts at [Implementation]'s start
-[Testing] requires 13 days
-[Internal Q&A] starts at [Testing]'s start
-[Internal Q&A] requires 13 days
-[Automated Testing] starts at [Testing]'s start
-[Automated Testing] requires 13 days
-[Customer Feedback] requires 2 days
-[Customer Feedback] starts on 2024-03-13
 --Risk Management--
 [Risk Management] requires 13 days
 [Risk Management] starts at [Review Brief and write questions]'s end
