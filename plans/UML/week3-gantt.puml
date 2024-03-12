@@ -1,0 +1,57 @@
+@startgantt
+hide resources footbox
+Project starts 2024-02-19 
+
+[Requirements Elicitation] starts 2024-02-19 
+[Requirements Elicitation] requires 5 days
+[Review Brief and write questions] on {Everyone} requires 2 days 
+then [Conduct interview] on {Dan, Charlotte, Ethan, Ben} requires 1 day
+then [Write up requirements] on {Dan, Charlotte, Rosie} requires 4 days
+[Requirements document] happens at [Write up requirements]'s end
+--Architecture--
+[Architecture] starts at [Requirements document]'s end
+[Architecture] requires 18 days
+[Responsibility Driven Design] on {Everyone} requires 8 days
+[Responsibility Driven Design] starts at [Requirements document]'s end
+[Architectural Design] on {Dan, Ethan, Rosie} requires 10 days
+[Architectural Design] starts at [Responsibility Driven Design]'s end
+--Implementation--
+[Implementation] starts on 2024-03-07
+[Implementation] requires 12 days
+[Rendering] on {Joe} requires 2 days
+[Movement] on {Joe} requires 1 days
+[Animation] on {Joe} requires 3 days
+[Map] on {Freddie} requires 4 days
+[Collisions] on {Freddie} requires 5 days
+[Interaction] on {Ben} requires 4 days
+[Counters(GUI)] on {Joe} requires 3 days
+[Rendering] starts at [Implementation]'s start
+[Movement] starts at [Rendering]'s end
+[Map] starts at [Rendering]'s end
+[Animation] starts at [Movement]'s end
+[Interaction] starts at [Map]'s end
+[Counters(GUI)] starts at [Map]'s end
+[Collisions] starts at [Map]'s end
+--Risk Management--
+[Risk Management] requires 13 days
+[Risk Management] starts on 2024-02-21
+[Risk Identification] on {Ethan, Ben} requires 1 day
+[Risk Identification] starts on 2024-02-21
+[Risk Analysis] on {Everyone} starts at [Risk Identification]'s end
+[Risk Analysis] requires 5 days
+[Risk Planning] starts at [Risk Analysis]'s end
+[Risk Planning] on {Ben, Ethan} requires 7 days
+[Risk Management Plan] happens at [Risk Planning]'s end
+[Risk Monitoring] starts at [Risk Planning]'s end
+[Risk Monitoring] ends on 2024-03-20
+
+--Planning--
+[Weekly project plan 1] on {Joe} starts on 2024-02-22
+[Weekly project plan 2] on {Joe} starts on 2024-02-29
+[Weekly project plan 3] on {Joe} starts on 2024-03-07
+[Weekly project plan 4] starts on 2024-03-14
+[Method selection and planning] on {Charlotte} starts on 2024-03-07
+[Method selection and planning] requires 10 days
+
+[Submission] starts on 2024-03-20
+@endgantt

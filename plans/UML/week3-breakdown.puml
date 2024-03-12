@@ -1,0 +1,28 @@
+@startwbs
+* Heslington Hustle
+** Website
+** Requirements Elicitation
+*** Review Brief
+*** Conduct interview
+*** Write up requirements
+** Risk Management
+*** Risk Identification
+*** Risk Analysis
+*** Risk Planning
+*** Risk Monitoring
+** Architecture
+*** Responsibility Driven Design
+*** Architectural Design
+** Method selection and Planning
+*** SWE Methods
+*** Team Organisation
+*** Planning
+** Implementation
+*** Rendering
+*** Movement
+*** Map
+*** Collision
+*** Animation
+*** Interaction
+*** Counters (GUI)
+@endwbs
